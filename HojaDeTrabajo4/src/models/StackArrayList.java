@@ -12,7 +12,6 @@ public class StackArrayList<T> implements IStack<T>{
 	 * @return takes out the last item on the stack.
 	 */
 	public T pop() {
-		
 		try {
 		T x= items.get(i);
 		items.remove(i);
