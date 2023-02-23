@@ -53,9 +53,11 @@ public class HT4 {
 				menuListas();
 				String option2 = "" + entrada.nextLine();
 				if (option2.equals("1")) {
-					stackList = factory.getDataStructure("LinkedList");
+					//stackList = factory.getDataStructure("LinkedList");
+					stackList = factory.getDataStructure("ArrayList");
 				}else {
-					stackList = factory.getDataStructure("DoubleLinkedList");
+					//stackList = factory.getDataStructure("DoubleLinkedList");
+					stackList = factory.getDataStructure("ArrayList");
 				}
 				break;
 			
