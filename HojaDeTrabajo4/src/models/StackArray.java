@@ -1,3 +1,9 @@
+/***
+	    	 * Algoritmos y Estructura de datos
+	    	 * Michelle Mejía 22596
+	    	 *Lógica de Stack implementando Array.
+	    	 */
+
 package models;
 import interfaces.IStack;
 
@@ -10,21 +16,15 @@ public class StackArray<T> implements IStack<T>{
 	 * @return takes out the last item on the stack.
 	 */
 	public T pop() {
-		
-		try {
-		
-			for(int j=items.length; j>0; j--){
-	            items[j-1]= items[j];
-	        }   
 			 i--;
-			return items[i];
+			 
+			 try {
+			return items[i+1];
 			
-		}catch(Exception e) {
-			
-			System.out.println("Existen más operadores que operandos");
-	}
-		
-	return null;
+			 }catch(Exception e) {
+				System.out.println("Existen más operadores que operandos");
+				return null;
+			}
 		
 	}
 	
@@ -47,6 +47,7 @@ public class StackArray<T> implements IStack<T>{
 	 * @return last item on the stack.
 	 */
 	public T peek() {
+		System.out.println(items[0]);
 		return items[i];
 	}
 

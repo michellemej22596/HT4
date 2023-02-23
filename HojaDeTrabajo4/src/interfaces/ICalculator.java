@@ -1,5 +1,5 @@
 /**
-*
+*Interfaz calculadora, operaciones de aritmetica basica.
 
 * @author Michelle
 */

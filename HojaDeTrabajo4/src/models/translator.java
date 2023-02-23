@@ -1,8 +1,17 @@
+/***
+	    	 * Algoritmos y Estructura de datos
+	    	 * Michelle Mejía 22596
+	    	 * Clase traductor, se encarga de pasar las operaciones encontradas en método infix
+	    	 * a postfix para la aplicación de nuestro stack.
+	    	 * Código utilizado como referencia: https://www.tutorialspoint.com/Convert-Infix-to-Postfix-Expression#:~:text=To%20convert%20infix%20expression%20to,maintaining%20the%20precedence%20of%20them
+	    	 */
+
 package models;
 /* Java implementation to convert
  infix expression to postfix*/
 // Note that here we use ArrayDeque class for Stack
 // operations
+
  
 import java.util.ArrayDeque;
 import java.util.Deque;

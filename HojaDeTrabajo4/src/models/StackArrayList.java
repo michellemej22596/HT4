@@ -1,3 +1,9 @@
+/***
+	    	 * Algoritmos y Estructura de datos
+	    	 * Michelle Mejía 22596
+	    	 *Lógica de Stack implementando ArrayList.
+	    	 */
+
 package models;
 import java.util.ArrayList;
 import interfaces.IStack;

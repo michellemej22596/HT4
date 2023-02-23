@@ -1,5 +1,5 @@
 /**
-*
+*Interfaz IStack, fabricada en conjunto durante la clase.
 * @author Michelle
 */
 package interfaces;

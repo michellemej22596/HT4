@@ -1,3 +1,9 @@
+/***
+	    	 * Algoritmos y Estructura de datos
+	    	 * Michelle Mejía 22596
+	    	 *Lógica de Stack implementando DoubleLinkedList.
+	    	 */
+
 package models;
 import interfaces.IStack;
 

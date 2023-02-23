@@ -1,11 +1,16 @@
+/***
+	    	 * Algoritmos y Estructura de datos
+	    	 * Michelle Mejia 22596
+	    	 *Lógica de Stack implementando LinkedList.
+	    	 */
+
 package models;
-import java.util.LinkedList;
-import java.util.List;
 
 import interfaces.IStack;
 
 public class StackLinkedList<T> implements IStack<T>{
-	List<T> items = new LinkedList();
+	list<T> list1 = new list<>();
+	int i=0;
 	
 
 	/***
@@ -13,6 +18,7 @@ public class StackLinkedList<T> implements IStack<T>{
 	 * @return takes out the last item on the stack.
 	 */
 	public T pop() {
+		list1.remove(null);
 		return null;
 	}
 	
@@ -21,7 +27,7 @@ public class StackLinkedList<T> implements IStack<T>{
 	 * @param add an item to the stack.
 	 */
 	public void push(T item) {
-		
+		list1.add(i, item);
 	}
 
 	/***

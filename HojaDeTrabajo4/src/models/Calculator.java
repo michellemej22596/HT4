@@ -1,3 +1,10 @@
+/***
+	    	 * Algoritmos y Estructura de datos
+	    	 * Michelle Mejía 22596
+	    	 * Clase calculadora, realiza operaciones de aritmética básica.
+	    	 *Utiliza el patrón de diseño SingleTon
+	    	 */
+
 package models;
 
 import interfaces.ICalculator;
